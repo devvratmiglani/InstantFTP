@@ -43,7 +43,7 @@ These FTP server support 20 multiple connection per ip by default and can be inc
 
 Can use multiple connections as 
 ```sh
-aria2c -x16 -s16 ftp://user:pass@\{ip/host}\:port\path-to-file
+aria2c -x16 -s16 ftp://user:pass@\host:port\path-to-file
 ```
 Learn more [Aria2c](https://github.com/aria2/aria2/)
 
