@@ -14,7 +14,7 @@ _**NOTE: These executables have anonymous user access too, don't use them in uns
 
 By the way you don't need to worry much if you are using it on home network, still all devices in local network can access this link if they have this link (or if with credentials) or either they are scanning for open ports which is very uncommon, adding credentials adds a layer of security.
 
-# Installation
+## Installation
 To use them directly run the follwing command
 ```sh
 git clone https://github.com/devvratmiglani/InstantFTP.git
@@ -22,10 +22,10 @@ git clone https://github.com/devvratmiglani/InstantFTP.git
 and then set this directory in your PATHS or Environment variables
 eg. '_C:\Tools\InstantFTP\\_' if you have git cloned in '_C:\Tools\Directory\\_'.
 
-# Usage
+## Usage
 Launch a terminal and type 'ftu' or 'ftw' and the server insatntly starts sharing the curernt folder to all your devices in your local network.
 
-# Recompiling
+## Recompiling
 If you want to set a unique `username`:`password` for little more security I suggset to recompile the _ft.py_ using the above `pyinstaller` command with made changes, you may need to run the following pyinstaller command first
 
 ```sh
@@ -38,7 +38,7 @@ pyinstaller .\ft.py --onefile --python-option u
 
 ```
 
-# Features
+## Features
 These FTP server support 20 multiple connection per ip by default and can be increased in the _ft.py_ (isn't worth it though,3-5 is more than enough) these can be beneficial when you are trying to download very large file over the network.
 
 Can use multiple connections as 
