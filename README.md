@@ -39,7 +39,7 @@ pyinstaller .\ft.py --onefile --python-option u
 ```
 
 ## Features
-These FTP server support 20 multiple connection per ip by default and can be increased in the _ft.py_ (isn't worth it though,3-5 is more than enough) these can be beneficial when you are trying to download very large file over the network.
+These FTP server support 20 multiple connection per ip by default and can be increased in the _ft.py_ (isn't worth it though, 3-5 is more than enough) these can be beneficial when you are trying to download very large file over the network.
 
 Can use multiple connections as 
 ```sh
