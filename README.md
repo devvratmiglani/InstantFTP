@@ -26,7 +26,7 @@ eg. '_C:\Tools\InstantFTP\\_' if you have git cloned in '_C:\Tools\\_' Directory
 Launch a terminal and type 'ftu' or 'ftw' and the server insatntly starts sharing the curernt folder to all your devices in your local network.
 
 ## Recompiling
-If you want to set a unique `username`:`password` for little more security I suggset to recompile the _ft.py_ using the above `pyinstaller` command with made changes, you may need to run the following pyinstaller command first
+If you want to set a unique `username`:`password` for little more security I suggest to recompile the _`ft.py`_ using the above `pyinstaller` command with made changes, you may need to run the following pyinstaller command first
 
 ```sh
 pip install pyinstaller
