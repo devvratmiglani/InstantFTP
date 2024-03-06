@@ -16,7 +16,7 @@ To use them directly run the follwing command
 git clone https://github.com/devvratmiglani/InstantFTP.git
 ```
 and then set this directory in your PATHS or Environment variables
-eg. _C:\Tools\InstantFTP\\_ if you have git cloned in _C;\Tools\\_ Directory.
+eg. _C:\Tools\InstantFTP\\_ if you have git cloned in _C:\Tools\\_Directory.
 
 Launch a terminal and type 'ftu' or 'ftw' and the server insatntly starts sharing the curernt folder to all your devices in your local network.
 
