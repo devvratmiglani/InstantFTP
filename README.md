@@ -6,7 +6,11 @@
 
 These executables also print a `QR` on to the terminal for easy access of the ftp server link.
 
-_*NOTE: These executables have anonymous user access too, don't use them in unsafe networks. You may consider recompiling with anonymous access removed and you own unique username:password*_ 
+Automatically session logs are visible within the terminal logging who access which files and how many connections
+
+![Demo usage of InstantFTP](https://raw.gtihubusercontent.com/devvratmiglani/InstantFTP/main/ftw-powershell-show.png)
+
+_**NOTE: These executables have anonymous user access too, don't use them in unsafe networks. You may consider recompiling with anonymous access removed and you own unique username:password**_ 
 
 By the way you don't need to worry much if you are using it on home network, still all devices in local network can access this link if they have this link (or if with credentials) or either they are scanning for open ports which is very uncommon, adding credentials adds a layer of security.
 
@@ -16,8 +20,9 @@ To use them directly run the follwing command
 git clone https://github.com/devvratmiglani/InstantFTP.git
 ```
 and then set this directory in your PATHS or Environment variables
-eg. '_C:\Tools\InstantFTP\\_' if you have git cloned in '_C:\Tools\Directory_'.
+eg. '_C:\Tools\InstantFTP\\_' if you have git cloned in '_C:\Tools\Directory\\_'.
 
+# Usage
 Launch a terminal and type 'ftu' or 'ftw' and the server insatntly starts sharing the curernt folder to all your devices in your local network.
 
 # Recompiling
