@@ -8,7 +8,7 @@ These executables also print a `QR` on to the terminal for easy access of the ft
 
 Automatically session logs are visible within the terminal logging who access which files and how many connections
 
-![Demo usage of InstantFTP](https://raw.gtihubusercontent.com/devvratmiglani/InstantFTP/main/ftw-powershell-show.png)
+![Demo usage of InstantFTP](https://raw.githubusercontent.com/devvratmiglani/InstantFTP/main/ftw-powershell-show.png)
 
 _**NOTE: These executables have anonymous user access too, don't use them in unsafe networks. You may consider recompiling with anonymous access removed and you own unique username:password**_ 
 
