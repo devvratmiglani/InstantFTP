@@ -49,9 +49,13 @@ Learn more [Aria2](https://github.com/aria2/aria2/)
 
 For wired connections it will be extremely fast.
 My stats:
+
 Wired-Router-Wired: 527MBps
+
 Wired-Router-Wireless: 60MBps
+
 Wireless-Router-Wireless  30MBps
+
 (Transmission speed depends on your router too)
 
 
