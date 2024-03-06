@@ -7,8 +7,8 @@ from colorama import Fore
 # Set up an authorizer with a user and password
 authorizer = DummyAuthorizer()
 authorizer.add_user("username", "password", ".", perm="elradfmw")
-authorizer.add_user("vlc", "password", ".", perm="elradfmw")
-authorizer.add_anonymous(".")
+authorizer.add_user("vlc", "password", ".", perm="elradfmw") ## adds user with password
+authorizer.add_anonymous(".") ## adds anonymous user
 
 # Instantiate the FTP handler with the given authorizer
 handler = FTPHandler

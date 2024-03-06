@@ -45,6 +45,7 @@ Can use multiple connections as
 ```sh
 aria2c -x16 -s16 ftp://user:pass@\{ip/host}\:port\path-to-file
 ```
+Learn more [Aria2c](https://github.com/aria2/aria2/)
 For wired connections it will be extremely fast.
 My stats:
 Wired-Router-Wired: 527MBps
