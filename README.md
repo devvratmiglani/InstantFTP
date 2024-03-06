@@ -10,7 +10,7 @@ Automatically session logs are visible within the terminal logging who access wh
 
 ![Demo usage of InstantFTP](https://raw.githubusercontent.com/devvratmiglani/InstantFTP/main/ftw-powershell-show.png)
 
-_**NOTE: These executables have anonymous user access too, don't use them in unsafe networks. You may consider recompiling with anonymous access removed and you own unique username:password**_ 
+_**NOTE: These executables have anonymous user access too, don't use them in unsafe networks. You may consider recompiling with anonymous access removed and your own unique username:password**_ 
 
 By the way you don't need to worry much if you are using it on home network, still all devices in local network can access this link if they have this link (or if with credentials) or either they are scanning for open ports which is very uncommon, adding credentials adds a layer of security.
 
