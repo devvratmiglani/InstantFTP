@@ -22,6 +22,8 @@ git clone https://github.com/devvratmiglani/InstantFTP.git
 and then set this directory in your PATHS or Environment variables
 eg. '_C:\Tools\InstantFTP\\_' if you have git cloned in '_C:\Tools\\_' Directory.
 
+---> See [Recompiling](#recompiling) for **Termux Installation**
+
 ## Usage
 Launch a terminal and type 'ftu' or 'ftw' and the server insatntly starts sharing the curernt folder to all your devices in your local network.
 
@@ -35,7 +37,19 @@ pip install pyinstaller
 These executables are compiled in respective environments using the pyinstaller as
 ```sh
 pyinstaller .\ft.py --onefile --python-option u
+```
+### Compiling in Termux
+We cannot directly compile it in termux due to limited packages but it can be done this way 
+```sh
+pkg install binutils
+pkg install ldd
 
+pip install pyinstaller
+
+pyinstaller ./ft.py --onefile --python-option u
+
+chmod +x ft
+mv ft ../ftu
 ```
 
 ## Multiple-Connection boost
