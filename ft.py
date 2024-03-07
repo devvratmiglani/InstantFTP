@@ -3,6 +3,7 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import ThreadedFTPServer
 from FindMyIP import internal
 from colorama import Fore
+import segno
 
 # Set up an authorizer with a user and password
 authorizer = DummyAuthorizer()
@@ -22,6 +23,8 @@ handler.send_buffer_size = 4096  # Adjust buffer size as needed
 hostip = internal()
 server = ThreadedFTPServer((hostip, 2121), handler)
 print(f"{Fore.GREEN}[+] FTP server running at ftp://username:password@{hostip}:2121{Fore.RESET}")
+qr = segno.make(f"ftp://username:password@{internal()}:2121")
+qr.terminal(border=3,)
 server.max_cons = 256
 server.max_cons_per_ip = 20
 server.serve_forever()
