@@ -31,6 +31,7 @@ Launch a terminal and type 'ftu' or 'ftw' and the server insatntly starts sharin
 If you want to set a unique `username`:`password` for little more security I suggest to recompile the _`ft.py`_ using the belower `pyinstaller` command with made changes, you may need to run the following pyinstaller command first
 
 ```sh
+pip install -r requirements.txt
 pip install pyinstaller
 ``` 
 
@@ -44,6 +45,7 @@ We cannot directly compile it in termux due to limited packages but it can be do
 pkg install binutils
 pkg install ldd
 
+pip install -r requirements.txt
 pip install pyinstaller
 
 pyinstaller ./ft.py --onefile --python-option u
