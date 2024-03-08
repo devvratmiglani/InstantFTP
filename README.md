@@ -50,6 +50,7 @@ pip install pyinstaller
 
 pyinstaller ./ft.py --onefile --python-option u
 
+cd dist
 chmod +x ft
 mv ft ../ftu
 ```
